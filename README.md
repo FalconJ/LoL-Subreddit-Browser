@@ -1,6 +1,6 @@
 #League of Legends Subreddit Browser with Node.js and Twilio
 
-This is the example code for a SMS app that allows you to text a phone number and see a list of top posts on Reddit! 
+This is the example code for a SMS app that allows you to text a phone number and see a list of top posts on League of Legends subreddit! 
 
 It uses the following technologies:
 
