@@ -4,7 +4,7 @@ var restler = require('restler');
 var app = express.createServer(express.logger());
 
 app.all('/', function(request, response) {
-	restler.get('http://reddit.com/.json').on('complete', function(reddit) {
+	restler.get('https://www.reddit.com/r/leagueoflegends/.json').on('complete', function(reddit) {
 		var titles = "<Response>";
 		for(var i=0; i<5; i++) {
 			titles += "<Sms>" + reddit.data.children[i].data.title + "</Sms>";
